@@ -1,0 +1,29 @@
+# Ignore the compiled binaries folder
+bin/
+
+# Ignore Eclipse project settings
+.DS_Store
+.classpath
+.project
+.settings/
+.factorypath
+.metadata/
+
+#Ignore logs
+*.log*
+
+#Ignore the contents of the maven target/ folder
+target/
+
+#Ignore sentinel.yml configuration
+conf/sentinel.yml
+
+#Ignore VS Code files
+.vscode/
+
+#Ignore the contents of the downloads folder
+downloads/
+
+#Ignore IntelliJ files
+.idea/
+*.iml
